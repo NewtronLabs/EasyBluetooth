@@ -1,4 +1,4 @@
-# Easy Bluetooh
+# Easy Bluetooth
 
 The EasyBluetooth library allows the fast creation of Bluetooth connections between devices. 
 
