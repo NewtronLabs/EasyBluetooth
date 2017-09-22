@@ -61,7 +61,7 @@ Once a server is set up and awaiting client connections, we can connect to it us
 ```java
 // Find the server Bluetooth device.
 BluetoothDevice serverDev = BluetoothAdapter.getDefaultAdapter().getRemoteDevice("AA:BB:CC:DD:EE:FF");
-IBluetoothClient client = new BluetoothClient.Builder(this.getApplication(), serverDev, ParcelUuid.fromString("10001101-0000-1000-8000-00805f9b34fb"))
+IBluetoothClient client = new BluetoothClient.Builder(this.getApplication(), serverDev, ParcelUuid.fromString("00001101-0000-1000-8000-00805F9B34FB"))
     // We want to be notified when connection completes.
     .setConnectionCallback(new SampleConnectionCallback())
     // Let's also get notified if it fails
