@@ -23,7 +23,7 @@ allprojects {
 In the `build.gradle` for your app.
 
 ```gradle
-compile 'com.newtronlabs.easybluetooth:easybluetooth:1.0.0'
+compile 'com.newtronlabs.easybluetooth:easybluetooth:1.0.1'
 ```
 
 ### EasyBluetooth - Server
