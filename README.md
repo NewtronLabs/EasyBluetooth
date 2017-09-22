@@ -31,7 +31,7 @@ In order to create a server we build a Bluetooth Server and accept clients.
 
 ```java
 // Define your service and it's UUID
-IBluetoothServer btServer = = new BluetoothServer.Builder(this.getApplicationContext(),
+IBluetoothServer btServer = new BluetoothServer.Builder(this.getApplicationContext(),
 "EasyBtService",ParcelUuid.fromString("10001101-0000-1000-8000-00805f9b34fb"))
 .build();
 
