@@ -27,16 +27,17 @@ allprojects {
     repositories {
         jcenter()
         maven { url "http://code.newtronlabs.com:8081/artifactory/libs-release-local" }
-        apply plugin: com.newtronlabs.android.NewtronLabsPlugin
     }
+}
+
+subprojects {
+    apply plugin: 'com.newtronlabs.android'
 }
 ```
 
 In the `build.gradle` for your app.
 
 ```gradle
-apply plugin: 'com.newtronlabs.android'
-
 dependencies {
     provided 'com.newtronlabs.easybluetooth:easybluetooth:2.0.0'
 }
