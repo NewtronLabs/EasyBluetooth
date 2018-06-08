@@ -43,7 +43,7 @@ In the `build.gradle` for your app.
 
 ```gradle
 dependencies {
-    provided 'com.newtronlabs.easybluetooth:easybluetooth:2.0.0'
+    provided 'com.newtronlabs.easybluetooth:easybluetooth:2.1.0'
 }
 ```
 
