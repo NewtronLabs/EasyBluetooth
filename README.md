@@ -18,8 +18,8 @@ buildscript {
         maven { url "http://code.newtronlabs.com:8081/artifactory/libs-release-local" }
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.1.3'
-        classpath 'com.newtronlabs.android:plugin:2.0.1'
+        classpath 'com.android.tools.build:gradle:3.5.2'
+        classpath 'com.newtronlabs.android:plugin:3.0.0'
     }
 }
 
@@ -39,7 +39,7 @@ In the `build.gradle` for your app.
 
 ```gradle
 dependencies {
-    compileOnly 'com.newtronlabs.easybluetooth:easybluetooth:2.0.1'
+    compileOnly 'com.newtronlabs.easybluetooth:easybluetooth:3.0.0'
 }
 ```
 
