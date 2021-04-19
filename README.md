@@ -41,7 +41,7 @@ In the `build.gradle` for your app.
 
 ```gradle
 dependencies {
-    compileOnly 'com.newtronlabs.easybluetooth:easybluetooth:4.0.3'
+    compileOnly 'com.newtronlabs.easybluetooth:easybluetooth:4.0.2'
 }
 ```
 
