@@ -23,8 +23,8 @@ buildscript {
         }
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.5.2'
-        classpath 'com.newtronlabs.android:plugin:4.0.5'
+        classpath 'com.android.tools.build:gradle:7.0.3'
+        classpath 'com.newtronlabs.android:plugin:5.0.1-alpha01'
     }
 }
 
@@ -49,7 +49,7 @@ In the `build.gradle` for your app.
 
 ```gradle
 dependencies {
-    compileOnly 'com.newtronlabs.easybluetooth:easybluetooth:4.0.2'
+    compileOnly 'com.newtronlabs.easybluetooth:easybluetooth:5.0.1-alpha01'
 }
 ```
 
